@@ -14,6 +14,7 @@ import pricing02 from "../img/pricing2.png";
 import pricing03 from "../img/pricing3.png";
 import calculateImg from "../img/calculate-img.png";
 import HomeBanner from "../components/sections/HomeBanner";
+import Logos from "../components/sections/Logos";
 
 
 class Home extends React.Component {
@@ -22,16 +23,7 @@ class Home extends React.Component {
         // <!-- ==================== MAIN ==================== -->
         <main className="main">
             <HomeBanner />
-    
-            {/* <!-- ==================== LOGOS ==================== --> */}
-            <section className="logos section">
-                <div className="logos_container container grid">
-                    <img src={logo01} alt="" className="logos_img"/>
-                    <img src={logo02} alt="" className="logos_img"/>
-                    <img src={logo03} alt="" className="logos_img"/>
-                    <img src={logo04} alt="" className="logos_img"/>
-                </div>
-            </section>
+            <Logos />
     
             {/* <!-- ==================== PROGRAM ==================== --> */}
             <section className="program section" id="program">
