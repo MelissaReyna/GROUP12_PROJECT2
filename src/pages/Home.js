@@ -1,5 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+import homeImg from "../img/home-img.png"
+import logo01 from "../img/logo01.png"
+import logo02 from "../img/logo02.png"
+import logo03 from "../img/logo03.png"
+import logo04 from "../img/logo04.png"
+import program1 from "../img/program1.png"
+import program2 from "../img/program2.png"
+import program3 from "../img/program3.png"
+import program4 from "../img/program4.png"
+import chooseImg from "../img/choose-img.png";
+import pricing01 from "../img/pricing1.png"
+import pricing02 from "../img/pricing2.png";
+import pricing03 from "../img/pricing3.png";
+import calculateImg from "../img/calculate-img.png";
+
 
 class Home extends React.Component {
   render() {
@@ -21,7 +36,7 @@ class Home extends React.Component {
                     </div>
     
                     <div className="home_images">
-                        <img src="assets/img/home-img.png" alt="" className="home_img"/>
+                        <img src={homeImg} alt="" className="home_img"/>
     
                         <div className="home_triangle home_triangle-3"></div>
                         <div className="home_triangle home_triangle-2"></div>
@@ -33,10 +48,10 @@ class Home extends React.Component {
             {/* <!-- ==================== LOGOS ==================== --> */}
             <section className="logos section">
                 <div className="logos_container container grid">
-                    <img src="assets/img/logo01.png" alt="" className="logos_img"/>
-                    <img src="assets/img/logo02.png" alt="" className="logos_img"/>
-                    <img src="assets/img/logo03.png" alt="" className="logos_img"/>
-                    <img src="assets/img/logo04.png" alt="" className="logos_img"/>
+                    <img src={logo01} alt="" className="logos_img"/>
+                    <img src={logo02} alt="" className="logos_img"/>
+                    <img src={logo03} alt="" className="logos_img"/>
+                    <img src={logo04} alt="" className="logos_img"/>
                 </div>
             </section>
     
@@ -54,7 +69,7 @@ class Home extends React.Component {
                     <div className="program_container grid">
                         <article className="program_card">
                             <div className="program_shape">
-                                <img src="assets/img/program1.png" alt="" className="program_img"/>
+                                <img src={program1} alt="" className="program_img"/>
                             </div>
                             <h3 className="program_title">Weight Loss Challenge</h3>
                             <p className="program_description">
@@ -68,7 +83,7 @@ class Home extends React.Component {
     
                         <article className="program_card">
                             <div className="program_shape">
-                                <img src="assets/img/program2.png" alt="" className="program_img"/>
+                                <img src={program2} alt="" className="program_img"/>
                             </div>
                             <h3 className="program_title">Muscle Building Program</h3>
                             <p className="program_description">
@@ -83,7 +98,7 @@ class Home extends React.Component {
     
                         <article className="program_card">
                             <div className="program_shape">
-                                <img src="assets/img/program3.png" alt="" className="program_img"/>
+                                <img src={program3} alt="" className="program_img"/>
                             </div>
                             <h3 className="program_title">Yoga and Meditation Series</h3>
                             <p className="program_description">
@@ -98,7 +113,7 @@ class Home extends React.Component {
     
                         <article className="program_card">
                             <div className="program_shape">
-                                <img src="assets/img/program4.png" alt="" className="program_img"/>
+                                <img src={program4} alt="" className="program_img"/>
                             </div>
                             <h3 className="program_title">Specialized Training Programs</h3>
                             <p className="program_description">
@@ -154,7 +169,7 @@ class Home extends React.Component {
                         </div>
     
                         <div className="choose_images">
-                            <img src="assets/img/choose-img.png" alt="" className="choose_img"/>
+                            <img src={chooseImg} alt="" className="choose_img"/>
     
                             <div className="choose_triangle choose_triangle-1"></div>
                             <div className="choose_triangle choose_triangle-2"></div>
@@ -179,7 +194,7 @@ class Home extends React.Component {
                         <article className="pricing_card">
                             <header className="pricing_header">
                                 <div className="pricing_shape">
-                                    <img src="assets/img/pricing1.png" alt="" className="pricing_img"/>
+                                    <img src={pricing01} alt="" className="pricing_img"/>
                                 </div>
     
                                 <h1 className="pricing_title">BASIC PLAN</h1>
@@ -213,7 +228,7 @@ class Home extends React.Component {
                         <article className="pricing_card pricing_card-active">
                             <header className="pricing_header">
                                 <div className="pricing_shape">
-                                    <img src="assets/img/pricing2.png" alt="" className="pricing_img"/>
+                                    <img src={pricing02} alt="" className="pricing_img"/>
                                 </div>
     
                                 <h1 className="pricing_title">STANDARD PLAN</h1>
@@ -246,7 +261,7 @@ class Home extends React.Component {
                         <article className="pricing_card">
                             <header className="pricing_header">
                                 <div className="pricing_shape">
-                                    <img src="assets/img/pricing3.png" alt="" className="pricing_img"/>
+                                    <img src={pricing03} alt="" className="pricing_img"/>
                                 </div>
     
                                 <h1 className="pricing_title">DIAMOND PACKAGE</h1>
@@ -309,7 +324,7 @@ class Home extends React.Component {
                         <p className="calculate_message" id="calculate-message"></p>
                     </div>
     
-                    <img src="assets/img/calculate-img.png" alt="" className="calculate_img"/>
+                    <img src={calculateImg} alt="" className="calculate_img"/>
                 </div>
             </section>
         </main>
