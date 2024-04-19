@@ -1,8 +1,15 @@
 import './App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <h1>This is a test</h1>
+    <main className="main">
+      <Header />
+      <Home />
+      <Footer />
+    </main>
   );
 }
 
