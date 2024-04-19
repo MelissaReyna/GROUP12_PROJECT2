@@ -6,8 +6,8 @@ class HomeBanner extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            title: 'Welcome to',
-            subtitle: 'B-Fit'
+            subtitle: 'Welcome to',
+            title: 'B-Fit'
         };
     }
 
