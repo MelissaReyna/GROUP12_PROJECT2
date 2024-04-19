@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class Header extends React.Component {
   render() {
@@ -6,29 +7,37 @@ class Header extends React.Component {
       // < !-- ==================== HEADER ==================== -->
       <header className="header" id="header">
         <nav className="nav container">
-          <a href="#" className="nav_logo">
+          <Link to='/' className="nav_logo">
             <img src="assets/img/logo.png" alt="" />
-          </a>
+          </Link>
 
           <div className="nav_menu" id="nav-menu">
             <ul className="nav_list">
               <li className="nav_item">
-                <a href="#home" className="nav_link">Home</a>
+                <Link to='/' className="nav_link">
+                  Home
+                </Link>
               </li>
               <li className="nav_item">
-                <a href="#program" className="nav_link">Program</a>
+                <Link to='/' className="nav_link">
+                  Program
+                </Link>
               </li>
               <li className="nav_item">
-                <a href="#choose" className="nav_link">Choose Us</a>
+                <Link to='/' className="nav_link">
+                  Choose Us
+                </Link>
               </li>
               <li className="nav_item">
-                <a href="#pricing" className="nav_link">Pricing</a>
+                <Link to='/' className="nav_link">
+                  Pricing
+                </Link>
               </li>
 
               <div className="nav_link">
-                <a href="#footer" className="button nav_button">
+                <Link to='' className="button nav_button">
                   Register Now
-                </a>
+                </Link>
               </div>
             </ul>
 
