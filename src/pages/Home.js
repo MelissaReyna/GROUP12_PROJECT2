@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom"
-import homeImg from "../img/home-img.png"
 import logo01 from "../img/logo01.png"
 import logo02 from "../img/logo02.png"
 import logo03 from "../img/logo03.png"
@@ -14,6 +13,7 @@ import pricing01 from "../img/pricing1.png"
 import pricing02 from "../img/pricing2.png";
 import pricing03 from "../img/pricing3.png";
 import calculateImg from "../img/calculate-img.png";
+import HomeBanner from "../components/sections/HomeBanner";
 
 
 class Home extends React.Component {
@@ -21,29 +21,7 @@ class Home extends React.Component {
     return (
         // <!-- ==================== MAIN ==================== -->
         <main className="main">
-            {/* <!-- ==================== HOME ==================== --> */}
-            <section className="home section" id="home">
-                <div className="home_container container grid">
-                    <div className="home_data">
-                        <h2 className="home_subtitle">Welcome to</h2>
-                        <h1 className="home_title">B-Fit</h1>
-                        <p className="home_description">
-                            We offer a variety of fitness programs tailored to meet your needs and goals.
-                        </p>
-                        <Link to='/' className="button button_flex">
-                            Get Started <i className="ri-arrow-right-line"></i>
-                        </Link>
-                    </div>
-    
-                    <div className="home_images">
-                        <img src={homeImg} alt="" className="home_img"/>
-    
-                        <div className="home_triangle home_triangle-3"></div>
-                        <div className="home_triangle home_triangle-2"></div>
-                        <div className="home_triangle home_triangle-1"></div>
-                    </div>
-                </div>
-            </section>
+            <HomeBanner />
     
             {/* <!-- ==================== LOGOS ==================== --> */}
             <section className="logos section">
