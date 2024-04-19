@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
@@ -14,9 +15,9 @@ class Home extends React.Component {
                         <p className="home_description">
                             We offer a variety of fitness programs tailored to meet your needs and goals.
                         </p>
-                        <a href="#program" className="button button_flex">
+                        <Link to='/' className="button button_flex">
                             Get Started <i className="ri-arrow-right-line"></i>
-                        </a>
+                        </Link>
                     </div>
     
                     <div className="home_images">
@@ -60,9 +61,9 @@ class Home extends React.Component {
                                 A structured program aimed at helping participants lose weight through a combination of
                                 cardiovascular exercise, strength training, and nutrition guidance.
                             </p>
-                            <a href="#" className="program_button">
+                            <Link to='/' className="program_button">
                                 <i className="ri-arrow-right-line"></i>
-                            </a>
+                            </Link>
                         </article>
     
                         <article className="program_card">
@@ -75,9 +76,9 @@ class Home extends React.Component {
                                 training
                                 exercises targeting major muscle groups.
                             </p>
-                            <a href="#" className="program_button">
+                            <Link to='/' className="program_button">
                                 <i className="ri-arrow-right-line"></i>
-                            </a>
+                            </Link>
                         </article>
     
                         <article className="program_card">
@@ -90,9 +91,9 @@ class Home extends React.Component {
                                 relaxation,
                                 and improving overall well-being.
                             </p>
-                            <a href="#" className="program_button">
+                            <Link to='/' className="program_button">
                                 <i className="ri-arrow-right-line"></i>
-                            </a>
+                            </Link>
                         </article>
     
                         <article className="program_card">
@@ -106,9 +107,9 @@ class Home extends React.Component {
                                 course
                                 preparation, or sports-specific conditioning.
                             </p>
-                            <a href="#" className="program_button">
+                            <Link to='/' className="program_button">
                                 <i className="ri-arrow-right-line"></i>
-                            </a>
+                            </Link>
                         </article>
                     </div>
                 </div>
@@ -204,9 +205,9 @@ class Home extends React.Component {
                                 </li>
                             </ul>
     
-                            <a href="#" className="button button_flex pricing_button">
+                            <Link to='/' className="button button_flex pricing_button">
                                 Purchase Now <i className="ri-arrow-right-line"></i>
-                            </a>
+                            </Link>
                         </article>
     
                         <article className="pricing_card pricing_card-active">
@@ -237,9 +238,9 @@ class Home extends React.Component {
                                 </li>
                             </ul>
     
-                            <a href="#" className="button button_flex pricing_button">
+                            <Link to='/' className="button button_flex pricing_button">
                                 Order Now <i className="ri-arrow-right-line"></i>
-                            </a>
+                            </Link>
                         </article>
     
                         <article className="pricing_card">
@@ -270,9 +271,9 @@ class Home extends React.Component {
                                 </li>
                             </ul>
     
-                            <a href="#" className="button button_flex pricing_button">
+                            <Link to='/' className="button button_flex pricing_button">
                                 Get Started <i className="ri-arrow-right-line"></i>
-                            </a>
+                            </Link>
                         </article>
                     </div>
                 </div>
