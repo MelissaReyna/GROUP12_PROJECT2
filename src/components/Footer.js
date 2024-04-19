@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 class Footer extends React.Component {
   render() {
@@ -7,19 +9,19 @@ class Footer extends React.Component {
       <footer className="footer section" id="footer">
         <div className="footer_container container grid">
           <div>
-            <a href="#" className="footer_logo">
-              <img src="assets/img/logo.png" alt=""/>
-            </a>
+            <Link to='/' className="footer_logo">
+              <img src="assets/img/logo.png" alt="" />
+            </Link>
             <p className="footer_description">
               Subscribe for company updates below.
             </p>
 
             <form action="" className="footer_form" id="contact-form">
               <input type="email" name="user_email" placeholder="Your Email" className="footer_input"
-                id="contact-user"/>
-                <button type="submit" className="button">
-                  Subscribe
-                </button>
+                id="contact-user" />
+              <button type="submit" className="button">
+                Subscribe
+              </button>
             </form>
 
             <p className="footer_message" id="contact-message"></p>
@@ -31,16 +33,24 @@ class Footer extends React.Component {
 
               <ul className="footer_links">
                 <li>
-                  <a href="#" className="footer_link">Flex Muscle</a>
+                  <Link to='/' className="footer_link">
+                    Flex Muscle
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="footer_link">Cardio Exercises</a>
+                  <Link to='/' className="footer_link">
+                    Cardio Exercises
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="footer_link">Basic Yoga</a>
+                  <Link to='/' className="footer_link">
+                    Basic Yoga
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="footer_link">Weight Lifting</a>
+                  <Link to='/' className="footer_link">
+                    Weight Lifting
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -49,13 +59,19 @@ class Footer extends React.Component {
 
               <ul className="footer_links">
                 <li>
-                  <a href="#" className="footer_link">Basic</a>
+                  <Link to='/' className="footer_link">
+                    Basic
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="footer_link">Standard</a>
+                  <Link to='/' className="footer_link">
+                    Standard
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="footer_link">Diamond</a>
+                  <Link to='/' className="footer_link">
+                    Diamond
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -64,16 +80,24 @@ class Footer extends React.Component {
 
               <ul className="footer_links">
                 <li>
-                  <a href="#" className="footer_link">About Us</a>
+                  <Link to='/' className="footer_link">
+                    About Us
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="footer_link">Careers</a>
+                  <Link to='/' className="footer_link">
+                    Careers
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="footer_link">Customers</a>
+                  <Link to='/' className="footer_link">
+                    Customers
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="footer_link">Partners</a>
+                  <Link to='/' className="footer_link">
+                    Partners
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -83,15 +107,15 @@ class Footer extends React.Component {
         <div className="container">
           <div className="footer_group">
             <ul className="footer_social">
-              <a href="#" className="footer_social-link">
+              <Link to='/' className="footer_social-link">
                 <i className="ri-facebook-circle-fill"></i>
-              </a>
-              <a href="#" className="footer_social-link">
+              </Link>
+              <Link to='/' className="footer_social-link">
                 <i className="ri-instagram-line"></i>
-              </a>
-              <a href="#" className="footer_social-link">
+              </Link>
+              <Link to='/' className="footer_social-link">
                 <i className="ri-youtube-line"></i>
-              </a>
+              </Link>
             </ul>
 
             <span className="footer_copy">
