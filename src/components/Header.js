@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 import logo from "../img/logo.png";
 
 class Header extends React.Component {
   render() {
     return (
-      // < !-- ==================== HEADER ==================== -->
       <header className="header" id="header">
         <nav className="nav container">
           <Link to='/' className="nav_logo">
@@ -20,23 +19,23 @@ class Header extends React.Component {
                 </Link>
               </li>
               <li className="nav_item">
-                <Link to='/' className="nav_link">
+                <Link to='/program' className="nav_link">
                   Program
                 </Link>
               </li>
               <li className="nav_item">
-                <Link to='/' className="nav_link">
+                <Link to='/choose' className="nav_link">
                   Choose Us
                 </Link>
               </li>
               <li className="nav_item">
-                <Link to='/' className="nav_link">
+                <Link to='/pricing' className="nav_link">
                   Pricing
                 </Link>
               </li>
 
               <div className="nav_link">
-                <Link to='' className="button nav_button">
+                <Link to='footer' className="button nav_button">
                   Register Now
                 </Link>
               </div>
