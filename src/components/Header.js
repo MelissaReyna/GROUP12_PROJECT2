@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../img/logo.png";
 
 class Header extends React.Component {
   render() {
@@ -8,7 +9,7 @@ class Header extends React.Component {
       <header className="header" id="header">
         <nav className="nav container">
           <Link to='/' className="nav_logo">
-            <img src="assets/img/logo.png" alt="" />
+            <img src={logo} alt="" />
           </Link>
 
           <div className="nav_menu" id="nav-menu">
